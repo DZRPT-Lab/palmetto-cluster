@@ -1,0 +1,12 @@
+#PBS -N dzrpt_example
+#PBS -l select=1:ncpus=1:mem=1gb,walltime=00:10:00
+#PBS -q dzrptlab
+
+module add anaconda3/5.0.1-gcc/8.3.1
+
+source activate lime_exp
+
+cd /home/bsw5/palmetto
+
+python palmetto_example.py
+
