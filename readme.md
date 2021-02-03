@@ -33,7 +33,7 @@ Once this is there you only need to type `palmetto` to login.
 
 ## Storage
 
-Your home directory is allocated 100GB of storage. If you want to use the Dzrpt lab storage you will find it in 
+Your home directory is allocated 100GB of storage. If you want to use the Dzrpt lab storage (currently its size is 5TB) you will find it in 
 
 ```
 /zfs/dzrptlab
