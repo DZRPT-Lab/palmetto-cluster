@@ -53,6 +53,16 @@ module list
 module avail
 ```
 
+## Adding Customer Notebook Kernels
+There are a few default kernels that can be used for Jupyter notebooks, but you can also create your own custom kernels and make them available to Jupyter. 
+
+```
+$ conda create --name myenv python=2.7
+$ source activate myenv
+$ conda install jupyter
+$ python -m ipykernel install --user --name python_custom --display-name "My Python"
+```
+
 ## Interactive Terminal
 
 If you want to do something interesting or more intensive, you need to move off of the login node and onto a dedicated compute node. Below is a command that will give you access to a node using our dedicated dzrpt lab queue. 
