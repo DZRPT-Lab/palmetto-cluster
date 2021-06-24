@@ -45,6 +45,12 @@ Each time you login, you will need to reload modules. For example, if you want t
 ```
 # Load Anaconda
 module add anaconda3/5.0.1-gcc/8.3.1
+
+# List currently loaded modules
+module list
+
+# Show available modules
+module avail
 ```
 
 ## Interactive Terminal
